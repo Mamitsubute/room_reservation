@@ -62,7 +62,7 @@ function App() {
         onChange={(e) => setRoomName(e.target.value)}
         placeholder="Room name"
       />
-      <button onClick={addRoom}>Create Room</button>
+      <button onClick={addRoom}>Add Room</button>
       <ul>
         {rooms.map((room) => (
           <li key={room.id}>
